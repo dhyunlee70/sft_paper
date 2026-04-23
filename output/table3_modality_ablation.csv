@@ -1,0 +1,14 @@
+﻿Rank,Experiment,Modalities,#Mod,MAE(%p),RMSE
+1,Text only,text,1,19.3,0.2294
+2,No Image,"text, coll, naver, temporal",4,19.5,0.2314
+3,Image + Text,"image, text",2,19.6,0.2328
+4,No Naver,"image, text, coll, temporal",4,19.6,0.2339
+5,All (SFT Full),"image, text, coll, naver, temporal",5,19.6,0.2339
+6,No Collection,"image, text, naver, temporal",4,19.6,0.2335
+7,No Text,"image, coll, naver, temporal",4,19.9,0.2357
+8,No Temporal,"image, text, coll, naver",4,20.4,0.2423
+9,Image only,image,1,20.4,0.2441
+10,Temporal only,temporal,1,20.4,0.2423
+11,Naver only,naver,1,20.5,0.2417
+12,Coll only,coll,1,20.5,0.2419
+13,Trend only,"coll, naver",2,20.6,0.2427
